@@ -25,7 +25,7 @@ body {
   grid-row: 1;
   justify-self: start;
   color: rgb(26, 26, 26);
-  font-size: 19px;
+  font-size: 23px;
   font-weight: 600;
   cursor: pointer;
   line-height: 1;
@@ -48,6 +48,7 @@ body {
 }
 
 .nav-links a {
+  position: relative;
   display: block;
   cursor: pointer;
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -63,8 +64,19 @@ body {
   text-decoration-line: underline;
 }
 
-.nav-links a:not(.underlined):hover {
-  text-decoration-line: underline;
+.nav-links a:not(.underlined)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(26, 26, 26);
+  transition: width 0.35s ease;
+}
+
+.nav-links a:not(.underlined):hover::after {
+  width: 100%;
 }
 
 .separator {
