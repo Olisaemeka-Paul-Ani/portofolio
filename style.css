@@ -116,3 +116,48 @@ body {
   margin: 0;
   max-width: 600px;
 }
+
+.now-section {
+  margin-top: 80px;
+  margin-left: 380px;
+}
+
+.now-title {
+  display: block;
+  color: rgb(26, 26, 26);
+  color-scheme: light;
+  font-family: "Instrument Serif", Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 28.9px;
+  font-weight: 400;
+  margin: 0 0 16px;
+}
+
+.reading-item {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+
+.reading-item + .reading-item {
+  margin-top: 16px;
+}
+
+.content-divider {
+  height: 2px;
+  background-color: #C9C4B8;
+  margin-top: 40px;
+  margin-left: 380px;
+  width: calc(100% - 380px - 40px);
+}
+
+.reading-item .bullet {
+  flex-shrink: 0;
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 28.05px;
+  color: black;
+}
+
+.reading-item .reading-body {
+  flex: 1;
+}
