@@ -161,3 +161,22 @@ body {
 .reading-item .reading-body {
   flex: 1;
 }
+
+.social-links {
+  margin-top: 20px;
+  margin-left: 380px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  color: rgb(26, 26, 26);
+  color-scheme: light;
+  cursor: pointer;
+  display: inline;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14.875px;
+  height: auto;
+  line-height: 24.5438px;
+  margin-right: 20px;
+  text-decoration: none;
+}

@@ -43,7 +43,7 @@
   <h2 class="now-title">Already read</h2>
   <div class="reading-item">
     <div class="bullet">&bull;</div>
-    <div class="reading-body"><em>Billion Dollar Loser &mdash; Reeves Wideman</em> &mdash; I was really into startups a couple years ago, and the story of WeWork was fascinating. Who tf drops $10 billion on a real estate company? One thing I learned: the ability to sell a dream is paramount in all types of businesses, even tech.</div>
+    <div class="reading-body"><em>Billion Dollar Loser &mdash; Reeves Wideman</em> &mdash; I was really interested in tech during COVID and decided to pick this up. While reading the book i would look at a couple videos of Adam Neumann speaking. Bro could sell ice to an Eskimo.</div>
   </div>
   <div class="reading-item">
     <div class="bullet">&bull;</div>
@@ -60,6 +60,24 @@
 </div>
 
 <div class="content-divider"></div>
+
+<div class="social-links">
+  <a href="" class="social-link">Github</a>
+  <a href="" class="social-link">Linkedin</a>
+</div>
+
+<script>
+  function syncContentDivider() {
+    var topDivider = document.querySelector(".navbar .divider");
+    var bottomDivider = document.querySelector(".content-divider");
+    if (!topDivider || !bottomDivider) return;
+    var rect = topDivider.getBoundingClientRect();
+    bottomDivider.style.marginLeft = rect.left + "px";
+    bottomDivider.style.width = rect.width + "px";
+  }
+  window.addEventListener("load", syncContentDivider);
+  window.addEventListener("resize", syncContentDivider);
+</script>
 
 </body>
 </html>
