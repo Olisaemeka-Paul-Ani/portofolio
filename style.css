@@ -180,3 +180,61 @@ body {
   margin-right: 20px;
   text-decoration: none;
 }
+
+.listening-content {
+  margin-top: 80px;
+  margin-left: 380px;
+}
+
+.cover-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 700px;
+  margin-top: 32px;
+}
+
+.cover-item {
+  min-width: 0;
+}
+
+.cover-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.cover-item:hover img {
+  transform: translateY(-6px);
+}
+
+.cover-title {
+  box-sizing: border-box;
+  color: rgb(26, 26, 26);
+  color-scheme: light;
+  display: block;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 13.8125px;
+  height: 18.6375px;
+  line-height: 18.6469px;
+  margin-top: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cover-artist {
+  box-sizing: border-box;
+  color: rgb(90, 90, 90);
+  color-scheme: light;
+  display: block;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 13.8125px;
+  height: 37.275px;
+  margin-top: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
