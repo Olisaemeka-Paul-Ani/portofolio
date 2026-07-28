@@ -32,6 +32,25 @@ body {
   text-decoration: none;
 }
 
+.badge.is-current {
+  color: #C9C4B8;
+}
+
+.badge:hover {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
+  background-size: 250% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: badge-glimmer 0.8s ease-in-out 1;
+}
+
+@keyframes badge-glimmer {
+  0% { background-position: 150% center; }
+  100% { background-position: -50% center; }
+}
+
 .nav-links {
   grid-column: 2;
   grid-row: 1;
@@ -63,6 +82,20 @@ body {
 
 .nav-links a.underlined {
   text-decoration-line: underline;
+}
+
+.nav-links a.is-current {
+  color: #C9C4B8;
+}
+
+.nav-links a:hover {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
+  background-size: 250% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: badge-glimmer 0.8s ease-in-out 1;
 }
 
 .nav-links a:not(.underlined)::after {
@@ -192,6 +225,16 @@ body {
   line-height: 24.5438px;
   margin-right: 20px;
   text-decoration: none;
+}
+
+.social-link:hover {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
+  background-size: 250% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: badge-glimmer 0.8s ease-in-out 1;
 }
 
 .listening-content {
