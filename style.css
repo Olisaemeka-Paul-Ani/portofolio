@@ -108,6 +108,18 @@ body {
   margin: 0 0 16px;
 }
 
+.reading-subtitle {
+  box-sizing: border-box;
+  color: rgb(26, 26, 26);
+  color-scheme: light;
+  display: block;
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 17px;
+  height: 28.05px;
+  line-height: 28.05px;
+  margin: 0 0 16px;
+}
+
 .reading-body {
   font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 17px;
