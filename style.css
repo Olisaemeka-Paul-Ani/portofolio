@@ -134,6 +134,36 @@ body {
   margin-left: 380px;
 }
 
+.home-content {
+  margin-top: 80px;
+  margin-left: 380px;
+}
+
+.home-title {
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: rgb(26, 26, 26);
+  color-scheme: light;
+  column-gap: 10.2px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Instrument Serif", Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 44.2px;
+  font-weight: 700;
+  margin: 0;
+  cursor: pointer;
+}
+
+.home-title:hover {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
+  background-size: 250% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: badge-glimmer 0.8s ease-in-out 1;
+}
+
 .reading-title {
   font-family: "Instrument Serif", Newsreader, ui-serif, Georgia;
   font-size: 44.4px;
