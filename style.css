@@ -154,6 +154,24 @@ body {
   cursor: pointer;
 }
 
+.home-ipa {
+  margin-top: 20px;
+  box-sizing: border-box;
+  color: rgb(50, 50, 50);
+  color-scheme: light;
+  display: block;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  height: auto;
+  letter-spacing: -0.159375px;
+  line-height: 17px;
+  margin-bottom: 5.95px;
+}
+
+.home-meta .home-ipa + .home-ipa {
+  margin-top: 8px;
+}
+
 .home-title:hover {
   background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
   background-size: 250% auto;
