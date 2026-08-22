@@ -172,6 +172,23 @@ body {
   margin-top: 8px;
 }
 
+.home-content .reading-body {
+  margin-top: 12px;
+}
+
+.sfu-inline {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sfu-logo {
+  height: 17px;
+  width: auto;
+  margin-left: 6px;
+  position: relative;
+  top: -3px;
+}
+
 .home-title:hover {
   background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
   background-size: 250% auto;
