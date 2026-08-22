@@ -155,7 +155,7 @@ body {
 }
 
 .home-ipa {
-  margin-top: 20px;
+  margin-top: 8px;
   box-sizing: border-box;
   color: rgb(50, 50, 50);
   color-scheme: light;
@@ -170,6 +170,10 @@ body {
 
 .home-meta .home-ipa + .home-ipa {
   margin-top: 8px;
+}
+
+.home-content .reading-subtitle {
+  margin-top: 50px;
 }
 
 .home-content .reading-body {
@@ -187,6 +191,19 @@ body {
   margin-left: 6px;
   position: relative;
   top: -3px;
+}
+
+.glossary-section {
+  margin-top: 40px;
+}
+
+.glossary-title {
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 28.05px;
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+  margin: 0;
 }
 
 .home-title:hover {
@@ -271,6 +288,39 @@ body {
 
 .reading-item .reading-body {
   flex: 1;
+}
+
+.reading-body a {
+  color: rgb(26, 26, 26);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.reading-body a:hover {
+  color: #C9C4B8;
+}
+
+.glimmer-link:hover {
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, #C9C4B8 45%, #F4F0E8 50%, #C9C4B8 55%, rgb(26, 26, 26) 100%);
+  background-size: 250% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: badge-glimmer 0.8s ease-in-out 1;
+}
+
+.glossary-section .reading-item {
+  align-items: center;
+}
+
+.glossary-bullet {
+  flex-shrink: 0;
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 28.05px;
+  color: rgb(50, 50, 50);
 }
 
 .social-links {
